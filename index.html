@@ -1,34 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PDF Tools | Cristiano Lino</title>
-  <link rel="stylesheet" href="assets/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Tools - Suas ferramentas PDF em um só lugar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header class="fade-in">
-    <img src="assets/logo.png" alt="PDF Tools Logo" class="logo" />
-    <h1>PDF Tools</h1>
-    <p class="tagline">Manipulação de PDFs com privacidade total. 100% local. 0% servidores.</p>
-    <a href="https://github.com/cristianolinno/pdf-tools-release/releases/latest/download/pdf_tools_instalador.exe" class="download-btn">Baixar para Windows</a>
-    <p class="coming-soon">Versões para Linux e macOS em breve</p>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-file-pdf"></i>
+                <span>PDF Tools</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Recursos</a>
+                <a href="#download">Download</a>
+                <a href="#contact">Contato</a>
+            </div>
+        </nav>
+    </header>
 
-  <section class="info-section fade-in">
-    <h2>Por que escolher o PDF Tools?</h2>
-    <p>Ao contrário de muitas ferramentas online, o PDF Tools processa todos os arquivos diretamente no seu computador. Nenhum dado é enviado para a nuvem, garantindo total segurança e conformidade com boas práticas de privacidade.</p>
-  </section>
+    <main>
+        <section id="hero">
+            <h1>PDF Tools</h1>
+            <p class="subtitle">Suas ferramentas PDF em um só lugar</p>
+            <div class="cta-buttons">
+                <a href="#download" class="btn btn-primary">
+                    <i class="fas fa-download"></i>
+                    Download
+                </a>
+                <a href="#features" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i>
+                    Saiba mais
+                </a>
+            </div>
+        </section>
 
-  <section class="contact-section fade-in">
-    <h2>Contato</h2>
-    <p>Dúvidas, sugestões ou problemas? Fale com a gente:</p>
-    <p><a href="mailto:talktopdftools@gmail.com">talktopdftools@gmail.com</a></p>
-  </section>
+        <section id="features">
+            <h2>Recursos</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-object-group"></i>
+                    <h3>Juntar PDFs</h3>
+                    <p>Combine múltiplos arquivos PDF em um único documento.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Dividir PDF</h3>
+                    <p>Divida documentos PDF em partes menores.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-compress-arrows-alt"></i>
+                    <h3>Comprimir PDF</h3>
+                    <p>Reduza o tamanho dos seus arquivos PDF.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-word"></i>
+                    <h3>Converter para Word</h3>
+                    <p>Transforme PDFs em documentos Word editáveis.</p>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>Desenvolvido com 💻 por Cristiano Lino</p>
-  </footer>
+        <section id="download">
+            <h2>Download</h2>
+            <div class="download-card">
+                <div class="version-info">
+                    <h3>PDF Tools v1.0.0</h3>
+                    <p>Windows 10/11 - 64 bits</p>
+                </div>
+                <a href="PDFTools-Setup.exe" class="btn btn-download">
+                    <i class="fas fa-download"></i>
+                    Baixar Instalador
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <div class="contact-card">
+                <p>Tem alguma dúvida ou sugestão? Entre em contato:</p>
+                <a href="mailto:talktopdftools@gmail.com" class="email-link">
+                    <i class="fas fa-envelope"></i>
+                    talktopdftools@gmail.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PDF Tools. Todos os direitos reservados.</p>
+    </footer>
 </body>
-</html>
+</html> 
