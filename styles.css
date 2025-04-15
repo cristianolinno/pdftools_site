@@ -67,6 +67,7 @@ nav {
 
 #hero {
     min-height: 100vh;
+    padding: 0;
     display: flex;
     align-items: center;
     position: relative;
@@ -99,8 +100,8 @@ nav {
 
 .privacy-text {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .btn-primary {
@@ -135,7 +136,7 @@ nav {
 
 .timeline {
     max-width: 1000px;
-    margin: 4rem auto;
+    margin: 3rem auto;
     position: relative;
     padding: 2rem;
 }
@@ -210,7 +211,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .feature-card {
@@ -231,7 +232,7 @@ nav {
     background: var(--bg-card);
     border-radius: 20px;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     position: relative;
     border: 1px solid rgba(0, 255, 187, 0.2);
     backdrop-filter: blur(10px);
@@ -307,7 +308,7 @@ nav {
     background: var(--bg-card);
     border-radius: 20px;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     border: 1px solid rgba(0, 255, 187, 0.2);
     text-align: center;
 }
@@ -385,28 +386,34 @@ h2 {
 }
 
 #features {
-    padding: 8rem 2rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 #roadmap {
-    padding: 8rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #download {
-    padding: 8rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     background: radial-gradient(circle at center, rgba(0, 255, 187, 0.1) 0%, transparent 70%);
 }
 
 #tutorial {
-    padding: 8rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #support {
-    padding: 8rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #contact {
-    padding: 8rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .download-container {
@@ -450,7 +457,7 @@ h2 {
     background: var(--bg-card);
     border-radius: 20px;
     padding: 3rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     border: 1px solid rgba(0, 255, 187, 0.2);
     text-align: center;
 }
