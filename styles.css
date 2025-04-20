@@ -528,6 +528,16 @@ h2 {
     color: var(--text-secondary);
 }
 
+.video-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.video-link:hover {
+    color: var(--accent);
+}
+
 .support-card {
     background: var(--bg-card);
     border-radius: 20px;
